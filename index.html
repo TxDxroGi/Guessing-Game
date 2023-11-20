@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <div class="word-guess-game" id="word-guess-game">
+    <h1>Guessing Game👾</h1>
+    <p>มาทายคำก๊านน</p>
+    <p class="word-display" id="word-display"></p>
+    <p id="guesses-left">จำนวนที่เหลือ: <span id="guesses"></span></p>
+    <label for="letter-input">เดามาเล้ย: </label>
+    <input type="text" id="letter-input" maxlength="1">
+    <button class="button" onclick="guessLetter()">ไป!!</button>
+    <br>
+    <p id="message"></p>
+  </div>
+
+
+  <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;400;500;600;700&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+}
+html
+{
+    background: rgb(126,255,202);
+    background: linear-gradient(90deg, rgba(126,255,202,1) 0%, rgba(169,189,255,1) 50%, rgba(179,0,255,1) 100%); 
+    background: url(background-game.jpg);
+    background-size: 200vh;   
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.word-guess-game 
+{
+    margin: 20vh auto;
+    padding: 10vh;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    line-height: 50px;  
+    width: 100vh;
+}
+
+.word-guess-game h1
+{
+    font-weight: 600;
+}
+
+.word-guess-game input
+{
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 2px#13c596;
+}
+
+.word-display
+{
+    font-size: 2rem;
+}
+
+/* CSS */
+.button {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 7px 20px;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  box-shadow: #14ffe4 0 -6px 8px inset;
+  transform: scale(1.0);
+}
+
+.button:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
